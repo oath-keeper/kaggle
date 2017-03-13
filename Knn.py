@@ -75,7 +75,7 @@ def classify(inX, dataSet, labels, k):
 def saveResult(result):
     with open('result.csv', 'w') as myFile:
         myWriter = csv.writer(myFile)
-        myWriter.writerow(["ImageId","Label"])  #添加属性名与序号
+        myWriter.writerow(["ImageId","Label"])  #添加属性名与序
         index = 0
         for i in result:
             tmp = []
